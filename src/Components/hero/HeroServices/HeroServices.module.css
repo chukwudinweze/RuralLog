@@ -1,0 +1,15 @@
+.HeroServices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10.625rem;
+  justify-content: space-between;
+  border-top: 1px solid rgba(194, 193, 193, 0.5);
+}
+
+@media only screen and (max-width: 664px) {
+  .HeroService p {
+    font-size: 2rem;
+  }
+}

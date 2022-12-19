@@ -1,0 +1,54 @@
+.UpperNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 1.8rem;
+  border-radius: 1.563rem;
+  color: #fff;
+  background: #0e2207;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.address a,
+.address p,
+.socialIcons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  font-family: var(--sans-serif);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  transition: background 0.2s ease-in;
+}
+
+.socialIcons a {
+  font-family: var(--sans-serif);
+  font-size: 18px;
+}
+
+.address a:hover {
+  color: #ffcd1e;
+}
+
+.address p:hover {
+  color: #ffcd1e;
+}
+
+.socialIcons a:hover {
+  color: #ffcd1e;
+}

@@ -1,0 +1,9 @@
+.TestimonialSection {
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .TestimonialSection {
+    padding-top: 40px;
+  }
+}

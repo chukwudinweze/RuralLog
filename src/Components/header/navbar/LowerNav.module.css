@@ -1,0 +1,30 @@
+.LowerNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1.8rem;
+}
+.LowerNav li a,
+.LowerNav li p {
+  font-family: var(--sans-serif);
+  color: #757873;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s ease-in;
+}
+
+.LowerNav li p {
+  font-size: 1.25rem;
+}
+
+.home_nav:first-child {
+  color: #0e2207;
+}
+.LowerNav li a:hover {
+  color: #0e2207;
+}
+
+.LowerNav li p:hover {
+  color: #0e2207;
+}

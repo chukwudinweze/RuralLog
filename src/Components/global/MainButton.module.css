@@ -1,0 +1,44 @@
+.button {
+  border-radius: 45px;
+  outline: none;
+  border: none;
+  background: var(--green);
+  margin-top: 60px;
+}
+
+.button a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 10px 12px 45px;
+  border-radius: 45px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.button:hover a {
+  color: var(--green);
+  background: rgb(230, 228, 228);
+}
+
+.button a p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #000000;
+  background: var(--gold);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.button:hover a p {
+  color: #fff;
+  background: #000000;
+}

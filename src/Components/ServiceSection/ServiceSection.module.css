@@ -1,0 +1,11 @@
+.ServiceSection {
+  background-color: rgb(247, 245, 245);
+  text-align: center;
+  padding: 80px 20px;
+}
+.ServiceSection .header {
+  padding-bottom: 50px;
+}
+
+.service_list {
+}

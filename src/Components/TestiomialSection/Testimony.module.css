@@ -1,0 +1,64 @@
+.Testimony {
+  /* width: 33.3%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  background-color: rgb(247, 245, 245);
+  border-radius: 15px;
+  font-family: var(--sans-serif);
+  padding-bottom: 50px;
+}
+
+.img_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  /* margin-top: -50px; */
+}
+
+.customer_img {
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.customer_img img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.qoute_icon {
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gold);
+}
+
+.content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 34px;
+  color: #757873;
+  width: 80%;
+}
+.name {
+  font-style: italic;
+  color: var(--green);
+  font-weight: 700;
+}

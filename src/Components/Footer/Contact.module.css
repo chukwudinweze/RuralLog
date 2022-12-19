@@ -1,0 +1,48 @@
+.Contact {
+  width: 33.3%;
+  font-family: var(--sans-serif);
+}
+
+.Contact h3 {
+  color: #ffffff;
+}
+
+.contact_list {
+  color: #737578;
+}
+
+.contact_list li a {
+  color: #737578;
+  font-size: 1rem;
+  line-height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact_list li a:hover {
+  color: #ffffff;
+}
+
+.contact_list li p,
+.contact_list li div {
+  line-height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.contact_list div:hover {
+  color: #ffffff;
+}
+.icon {
+  color: var(--gold);
+}
+
+@media only screen and (max-width: 900px) {
+  .Contact {
+    width: 100%;
+  }
+}

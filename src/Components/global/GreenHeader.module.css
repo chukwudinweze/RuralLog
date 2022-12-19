@@ -1,0 +1,11 @@
+.GreenHeader {
+  color: var(--green);
+  font-size: 1.2rem;
+  font-family: var(--sans-serif);
+}
+
+@media only screen and (max-width: 673px) {
+  .GreenHeader {
+    font-size: 1.35rem;
+  }
+}

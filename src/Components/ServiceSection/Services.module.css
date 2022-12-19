@@ -1,0 +1,14 @@
+.Services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .Services {
+    flex-wrap: wrap;
+  }
+}

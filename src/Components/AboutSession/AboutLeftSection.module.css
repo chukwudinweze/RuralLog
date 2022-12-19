@@ -1,0 +1,51 @@
+.AboutLeftSection {
+  width: 40%;
+  /* height: 578px; */
+}
+.flowerIcon {
+  background-image: url("../../assets/flower.png");
+  background-position: center;
+  background-size: contain;
+  width: 3.125rem;
+  height: 3.125rem;
+  /* line-height: 72px; */
+}
+
+.about_us_header {
+  margin: 20px 0;
+}
+.about_us_description {
+  color: #757873;
+  font-size: 1.125rem;
+  padding: 1.25rem 0;
+  font-family: var(--sans-serif);
+}
+
+.about_us_summary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  font-family: var(--sans-serif);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.about_us_summary p:first-child {
+  color: var(--gold);
+  font-size: 1.563rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .AboutLeftSection {
+    width: 100%;
+    padding: 1.5rem;
+  }
+}
+
+.GreenHeader {
+  color: var(--green);
+  font-size: 1.2rem;
+  font-family: var(--sans-serif);
+}

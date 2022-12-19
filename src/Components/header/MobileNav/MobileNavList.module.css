@@ -1,0 +1,7 @@
+.MobileNavList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 0.1px solid rgb(234, 233, 233);
+}

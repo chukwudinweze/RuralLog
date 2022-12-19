@@ -1,0 +1,19 @@
+.AboutSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.25rem 2.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .AboutSection {
+    flex-direction: column;
+    padding: 6.25rem 1rem;
+  }
+}
+@media only screen and (max-width: 673px) {
+  .AboutSection {
+    padding: 6.25rem 0rem;
+    text-align: center;
+  }
+}

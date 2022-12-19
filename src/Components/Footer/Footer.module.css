@@ -1,0 +1,16 @@
+.Footer {
+  width: 100%;
+  font-family: var(--sans-serif);
+  background: var(--footer_background);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 100px 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Footer {
+    flex-wrap: wrap;
+  }
+}

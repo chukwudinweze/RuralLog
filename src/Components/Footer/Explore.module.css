@@ -1,0 +1,30 @@
+.Explore {
+  font-family: var(--sans-serif);
+  width: 33.3%;
+}
+
+.Explore h3 {
+  color: #ffffff;
+}
+
+.explore_list {
+  margin-top: 10px;
+}
+
+.explore_list li a {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #757873;
+  transition: color 0.3s ease-in-out;
+}
+
+.explore_list li a:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+  .Explore {
+    font-family: var(--sans-serif);
+    width: 100%;
+  }
+}

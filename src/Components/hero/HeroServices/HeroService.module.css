@@ -1,0 +1,58 @@
+.HeroService {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-family: var(--amati);
+}
+
+.HeroService div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: scale(1.2); */
+}
+
+.HeroService p {
+  font-size: 3.125rem;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 700px) {
+  .HeroService {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 746px) {
+  .HeroService p {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .HeroService p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .HeroService p {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .HeroService p {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .HeroService {
+    justify-content: flex-start;
+  }
+}
