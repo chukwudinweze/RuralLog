@@ -19,15 +19,24 @@ const AgentRegistration = () => {
       alignItems="center"
       sx={{
         background: "#fff",
-        paddingLeft: { xs: "10px", sm: "50px", lg: "250px" },
-        paddingRight: { xs: "10px", sm: "50px", lg: "250px" },
+        paddingLeft: { xs: "10px", sm: "50px", lg: "20px" },
+        paddingRight: { xs: "10px", sm: "50px", lg: "20px" },
         paddingTop: { xs: "10px", sm: "20px", lg: "50px" },
         paddingBottom: { xs: "10px", sm: "20px", lg: "50px" },
-        marginLeft: "200px",
-        marginRight: "200px",
+        marginLeft: { xs: "10px", sm: "50px", lg: "200px" },
+        marginRight: { xs: "10px", sm: "50px", lg: "200px" },
+        boxShadow:
+          "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;",
+
+        // marginRight: "200px",
       }}
     >
       <Grid container spacing={{ xs: 1, md: 2 }}>
+        <Grid item xs={12} sm={12} lg={12}>
+          <Typography variant="h3" component="h1" fontWeight="700" gutterBottom>
+            Become Agent Today, Earn Forever
+          </Typography>
+        </Grid>
         <Grid item xs={12} sm={6} lg={6}>
           <TextField
             id="outlined-basic"
