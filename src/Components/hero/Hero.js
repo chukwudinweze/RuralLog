@@ -12,7 +12,7 @@ const Hero = () => {
         <img src={Underline} alt="gold line" />
       </div>
       <h1>Agriculture</h1>
-      <MainButton label={"Discover More"} link={"#rurallog"} />
+      <MainButton label={"Discover More"} link={"/agentsignup"} />
       <HeroServices />
     </section>
   );
