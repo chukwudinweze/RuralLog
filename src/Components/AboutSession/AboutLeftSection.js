@@ -36,7 +36,7 @@ const AboutLeftSection = () => {
         </p>
         <p> You get it fresh and raw right from farm.</p>
       </article>
-      <MainButton link="#about" label="Learn More" />
+      <MainButton link="/regfarmer" label="Become our Farmer" />
     </section>
   );
 };

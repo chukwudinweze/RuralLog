@@ -1,15 +1,7 @@
 import React from "react";
-import {
-  Button,
-  Grid,
-  MenuItem,
-  Stack,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Button, Grid, MenuItem, TextField, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import states from "../global/states";
-import Languages from "./SelectLanguages";
+import states from "../Components/global/states";
 
 const AgentRegistration = () => {
   const hangleSubmit = () => {
@@ -30,8 +22,6 @@ const AgentRegistration = () => {
         marginRight: { xs: "10px", sm: "50px", lg: "200px" },
         boxShadow:
           "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;",
-
-        // marginRight: "200px",
       }}
     >
       <form onSubmit={hangleSubmit}>
@@ -44,7 +34,7 @@ const AgentRegistration = () => {
               color="#2a750d"
               gutterBottomn
             >
-              Become Agent Today, Earn Forever
+              Connecting Rural Communities to the world
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} lg={6}>
@@ -91,17 +81,6 @@ const AgentRegistration = () => {
               size="medium"
             />
           </Grid>
-          <Grid item xs={12} sm={12} lg={12}>
-            <TextField
-              id="outlined-basic"
-              label="Business Name"
-              variant="outlined"
-              required
-              // helperText="Incorrect entry."
-              fullWidth
-              size="medium"
-            />
-          </Grid>
           <Grid item xs={12} sm={6} lg={6}>
             <TextField
               id="outlined-select-currency"
@@ -123,7 +102,7 @@ const AgentRegistration = () => {
             <TextField
               id="outlined-business-registered"
               select
-              label="Is Your Business registered"
+              label="Is this where you farm/business is located?"
               defaultValue="No"
               // helperText="Please select your state"
               fullWidth
@@ -139,7 +118,7 @@ const AgentRegistration = () => {
           <Grid item xs={12} sm={6} lg={6}>
             <TextField
               id="outlined-basic"
-              label="Business Location"
+              label="If No State Business Location"
               variant="outlined"
               required
               // helperText="Incorrect entry."
@@ -150,7 +129,7 @@ const AgentRegistration = () => {
           <Grid item xs={12} sm={6} lg={6}>
             <TextField
               id="outlined-basic"
-              label="Home Address"
+              label="Local Gvt"
               variant="outlined"
               required
               // helperText="Incorrect entry."
@@ -168,116 +147,6 @@ const AgentRegistration = () => {
               fullWidth
               size="medium"
             />
-          </Grid>
-          <Grid item xs={12} sm={6} lg={6}>
-            <TextField
-              id="outlined-basic"
-              label="Email"
-              variant="outlined"
-              required
-              // helperText="Incorrect entry."
-              size="medium"
-              fullWidth
-            />
-          </Grid>
-
-          <Grid item xs={12} sm={6} lg={6}>
-            <TextField
-              id="outlined-business-registered"
-              select
-              label="Years of Customer Experience"
-              defaultValue="No"
-              // helperText="Please select your state"
-              fullWidth
-              size="medium"
-            >
-              {[1, 2, 3, 4, 5, 6, 7, 8, 9, "10 and above"].map((option) => (
-                <MenuItem key={option} value={option}>
-                  {option}
-                </MenuItem>
-              ))}
-            </TextField>
-          </Grid>
-          <Grid item xs={12} sm={12} lg={12} sx={{ width: "100%" }}>
-            <Languages />
-          </Grid>
-          <Grid item xs={12} sm={12} lg={12} sx={{ width: "100%" }}>
-            <Stack
-              spacing={1}
-              sx={{
-                padding: "5px",
-                borderRadius: "4px",
-                border: "1px solid rgb(164, 162, 162)",
-                ":hover": { border: "2px solid #2a750d" },
-              }}
-            >
-              <Typography variant="body1" sx={{ fontSize: "10px" }}>
-                Upload a Valid ID
-              </Typography>
-
-              <input
-                accept="image/*"
-                multiple
-                type="file"
-                id="pictures"
-                name="pictures"
-                // onChange={(e) =>
-                //   formik.setFieldValue("pictures", [...e.target.files])
-                // }
-              />
-            </Stack>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={6} sx={{ width: "100%" }}>
-            <Stack
-              spacing={1}
-              sx={{
-                padding: "5px",
-                borderRadius: "4px",
-                border: "1px solid rgb(164, 162, 162)",
-                ":hover": { border: "2px solid #2a750d" },
-              }}
-            >
-              <Typography variant="body1" sx={{ fontSize: "10px" }}>
-                Upload CV/Business Profile
-              </Typography>
-
-              <input
-                accept="application/pdf, application/vnd.ms-excel"
-                multiple
-                type="file"
-                id="pictures"
-                name="pictures"
-                // onChange={(e) =>
-                //   formik.setFieldValue("pictures", [...e.target.files])
-                // }
-              />
-            </Stack>
-          </Grid>
-          <Grid item xs={12} sm={6} lg={6} sx={{ width: "100%" }}>
-            <Stack
-              spacing={1}
-              sx={{
-                padding: "5px",
-                borderRadius: "4px",
-                border: "1px solid rgb(164, 162, 162)",
-                ":hover": { border: "2px solid #2a750d" },
-              }}
-            >
-              <Typography variant="body1" sx={{ fontSize: "10px" }}>
-                Upload a Letter of Application
-              </Typography>
-
-              <input
-                accept="application/pdf, application/vnd.ms-excel"
-                multiple
-                type="file"
-                id="pictures"
-                name="pictures"
-                // onChange={(e) =>
-                //   formik.setFieldValue("pictures", [...e.target.files])
-                // }
-              />
-            </Stack>
           </Grid>
           <Grid item xs={12} sm={12} lg={12} sx={{ width: "100%" }}>
             <Box sx={{ width: "70%", margin: "0 auto", marginTop: "30px" }}>
