@@ -1,5 +1,5 @@
 import { ArrowBack } from "@mui/icons-material";
-import { Paper, IconButton, Typography, Box } from "@mui/material";
+import { IconButton, Typography, Box } from "@mui/material";
 import { Stack } from "@mui/system";
 import React from "react";
 import { useNavigate } from "react-router-dom";
@@ -32,7 +32,14 @@ const PageHeader = ({ label, background }) => {
         >
           <ArrowBack />
         </IconButton>
-        <Typography fontWeight={700} variant="h1" component="h1" color="#fff">
+        <Typography
+          fon
+          fontWeight={700}
+          variant="body1"
+          fontSize="40px"
+          component="h1"
+          color="#fff"
+        >
           {label}
         </Typography>
       </Stack>

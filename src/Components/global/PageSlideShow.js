@@ -11,7 +11,7 @@ const PageSlideShow = () => {
         src={coverImg}
         sx={{
           width: "100%",
-          height: "300px",
+          height: { xs: "150px", sm: "200px", lg: "300px" },
           borderRadius: "0",
           background: "#000",
         }}
