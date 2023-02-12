@@ -20,9 +20,11 @@ const AboutLeftSection = () => {
         agriculture farming experience"
       />
       <p className={styles.about_us_description}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        dolore veniam.
+        We have over 5 years of agriculture farming experience in providing
+        advisory services, creating an ecosystem that connects various players
+        within the sector. Services range across stakeholders not limited to the
+        farmers, agro-input suppliers, mechanization service providers,
+        agro-dealers...
       </p>
       <article className={styles.about_us_summary}>
         <p>

@@ -14,28 +14,29 @@ const Services = () => {
       <Service
         image={farmServiceOne}
         icon={<GiFarmTractor />}
-        heading="Agriculture Products"
+        heading="Agro Input"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat
           repellat officiis."
+        link="agroinputs"
       />
       <Service
         image={OrganicSdervice}
         icon={<GiFruitBowl />}
-        heading="Organic Products"
+        heading="Agro Commodities"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat
           repellat officiis."
       />
       <Service
         image={freshVegetable}
         icon={<GiTomato />}
-        heading="Fresh Vegetables"
+        heading="Organic Products"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat
           repellat officiis."
       />
       <Service
         image={diaryService}
         icon={<GiCow />}
-        heading="Dairy Products"
+        heading="Livestock products"
         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fugiat
           repellat officiis."
       />
