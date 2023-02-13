@@ -1,5 +1,4 @@
 import { Box } from "@mui/material";
-import { Stack } from "@mui/system";
 import React from "react";
 import SortItem from "../global/SortItem";
 import AgroProduct from "./AgroProduct";
